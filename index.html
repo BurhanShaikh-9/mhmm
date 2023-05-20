@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="message1 msgShow">
+            Hey!! How was your day ya qalbi??
+            <button class="msg1Button">Next</button>
+        </div>
+        <div class="message2 msg msgHide">
+            I know it was bad and what will u say
+            <button class="msg2Button">next</button>
+        </div>
+        <div class="message3 msg msgHide">
+            soooo...........
+            <button class="msg3Button">next</button>
+        </div>
+        <div class="message4 msg msgHide">
+            I made this website for youu! to cheerup your day
+            <button class="msg4Button">next</button>
+        </div>
+        <div class="message5 msg msgHide">
+            I love you!!! mmuaaahhhhhh
+            <button class="msg5Button">I love you Too</button>
+        </div>
+        <div class="message6 msg msgHide">
+            <img src="giphy.gif" alt="">
+            <button class="msg6Button">Ahhh!!! Fuck me daddy </button>
+        </div>
+        <div class="message7 msg msgHide">
+            <img src="see-you-you.gif" alt="">
+            <button class="msg7Button">Caught you smilling hehehe!! now u can go back to messenger </button>
+        </div>
+        <div class="message8 msg msgHide">
+            Yayyyyyyyyyyyyyyyy
+        
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('.msg1Button').click(function () {
+                $('.message1').removeClass('msgShow');
+                $('.message1').addClass('msgHide');
+                $('.message2').addClass('msgShow');
+            });
+            $('.msg2Button').click(function () {
+
+                $('.message2').removeClass('msgShow');
+                $('.message3').addClass('msgShow');
+
+            });
+            $('.msg3Button').click(function () {
+
+                $('.message3').removeClass('msgShow');
+                $('.message4').addClass('msgShow');
+
+            });
+            $('.msg4Button').click(function () {
+
+                $('.message4').removeClass('msgShow');
+                $('.message5').addClass('msgShow');
+
+            });
+            $('.msg5Button').click(function () {
+
+                $('.message5').removeClass('msgShow');
+                $('.message6').addClass('msgShow');
+
+            });
+            $('.msg6Button').click(function () {
+
+                $('.message6').removeClass('msgShow');
+                $('.message7').addClass('msgShow');
+
+            });
+            $('.msg7Button').click(function () {
+
+                $('.message7').removeClass('msgShow');
+                $('.message8').addClass('msgShow');
+
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

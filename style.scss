@@ -1,0 +1,33 @@
+body{
+    .main{
+        background-image: url(wallpaperflare.com_wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        width: 100%;
+        height: 100dvh;
+        justify-content: center;
+        align-items: center;
+        .msgHide{
+            display: none;
+        }
+        .msgShow{     
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            button{
+                margin-top: 20px;
+                background-color: white;
+                color: pink;
+                outline: none;
+                border: none;
+                font-size: 18px;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+    }
+}
